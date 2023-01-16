@@ -73,7 +73,7 @@ namespace IdentityServer4.EntityFramework.Stores
         }
 
         /// <inheritdoc/>
-        public virtual async Task<PersistedGrant> GetAsync(string key)
+        public virtual async Task<PersistedGrant> GetAsync(string key, string type = null)
         {
             var persistedGrant = (await Context.PersistedGrants.AsNoTracking().Where(x => x.Key == key).ToArrayAsync())
                 .SingleOrDefault(x => x.Key == key);

@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.Storage", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer.Host", "Host\IdentityServer.Host.csproj", "{ECA4C703-C463-4F32-BF0A-FA2EBF8A7327}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.EntityFramework", "EntityFramework\IdentityServer4.EntityFramework.csproj", "{4E5646C2-FB29-48AB-B689-9770E6ADFDA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.EntityFramework.Storage", "EntityFramework.Storage\IdentityServer4.EntityFramework.Storage.csproj", "{526623A4-4846-4C53-AB9D-86B52711171B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{ECA4C703-C463-4F32-BF0A-FA2EBF8A7327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA4C703-C463-4F32-BF0A-FA2EBF8A7327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA4C703-C463-4F32-BF0A-FA2EBF8A7327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5646C2-FB29-48AB-B689-9770E6ADFDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5646C2-FB29-48AB-B689-9770E6ADFDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5646C2-FB29-48AB-B689-9770E6ADFDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5646C2-FB29-48AB-B689-9770E6ADFDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526623A4-4846-4C53-AB9D-86B52711171B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526623A4-4846-4C53-AB9D-86B52711171B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526623A4-4846-4C53-AB9D-86B52711171B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526623A4-4846-4C53-AB9D-86B52711171B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
